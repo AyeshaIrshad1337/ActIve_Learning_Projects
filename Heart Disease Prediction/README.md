@@ -1,1 +1,1 @@
-To view the HTML file, click [here](path/to/file.html).
+To view the HTML file, click [here](EDA_Heart_Disease.html).
