@@ -20,11 +20,11 @@ In Big O notation, O(N^2) signifies that the time taken by an algorithm to execu
 
 ### Examples of O(N^2) Algorithms
 
-1. Bubble Sort: Bubble sort is a simple sorting algorithm where adjacent elements are compared and swapped until the entire array is sorted. With two nested loops, the time complexity of this algorithm is O(N^2), making it inefficient for large datasets.
+1. **Bubble Sort:** Bubble sort is a simple sorting algorithm where adjacent elements are compared and swapped until the entire array is sorted. With two nested loops, the time complexity of this algorithm is O(N^2), making it inefficient for large datasets.
     
-2. Selection Sort: The selection sort repeatedly finds the minimum element and places it at the beginning of the array. Like bubble sort, it employs two nested loops, resulting in a time complexity of O(N^2).
+2. **Selection Sort:** The selection sort repeatedly finds the minimum element and places it at the beginning of the array. Like bubble sort, it employs two nested loops, resulting in a time complexity of O(N^2).
     
-3. Matrix Multiplication: When multiplying two matrices, the naive approach involves three nested loops, leading to a time complexity of O(N^3). However, for square matrices, the time complexity is reduced to O(N^2.81) using more advanced algorithms like Strassen's method.
+3. **Matrix Multiplication:** When multiplying two matrices, the naive approach involves three nested loops, leading to a time complexity of O(N^3). However, for square matrices, the time complexity is reduced to O(N^2.81) using more advanced algorithms like Strassen's method.
     
 
 ### Drawbacks of O(N^2) Complexity
@@ -35,16 +35,16 @@ Quadratic time complexity can severely impact an algorithm's performance, especi
 
 While O(N^2) algorithms might be inefficient for large inputs, they can still be useful for small datasets or when simplicity is prioritized over efficiency. However, in many cases, it is crucial to optimize algorithms to reduce their time complexity.
 
-1. Utilizing Better Sorting Algorithms: Instead of bubble sort or selection sort, consider using more efficient sorting algorithms like merge sort or quicksort with O(N log N) time complexity.
+1. **Utilizing Better Sorting Algorithms:** Instead of bubble sort or selection sort, consider using more efficient sorting algorithms like merge sort or quicksort with O(N log N) time complexity.
     
-2. Avoiding Nested Loops: Look for ways to reduce the number of nested loops in your algorithms. Sometimes, restructuring the problem or using different data structures can lead to significant time complexity improvements.
+2. **Avoiding Nested Loops:** Look for ways to reduce the number of nested loops in your algorithms. Sometimes, restructuring the problem or using different data structures can lead to significant time complexity improvements.
     
-3. Memoization and Dynamic Programming: For certain problems, dynamic programming techniques can help reduce time complexity by reusing previously computed results.
+3. **Memoization and Dynamic Programming:** For certain problems, dynamic programming techniques can help reduce time complexity by reusing previously computed results.
     
 
 # Conclusion
 
-Big O of N^2, or quadratic time complexity, indicates that an algorithm's performance grows exponentially with the input size. Understanding O(N^2) is essential for developers to recognize the inefficiencies associated with nested loop algorithms and identify opportunities for optimization. While O(N^2) algorithms have drawbacks, they can still serve a purpose for smaller datasets or simpler implementations. However, for larger-scale applications, optimizing algorithms to achieve better time complexities, such as O(N log N) or O(N), is essential for efficient and scalable solutions.  
+Big O of N^2, or quadratic time complexity, indicates that an algorithm's performance grows exponentially with the input size. Understanding O(N^2) is essential for developers to recognize the inefficiencies associated with nested loop algorithms and identify opportunities for optimization. While O(N^2) algorithms have drawbacks, they can still serve a purpose for smaller datasets or simpler implementations. However, for larger-scale applications, optimizing algorithms to achieve better time complexities, such as O(N log N) or O(N), is essential for efficient and scalable solutions.
 
 # FunFact
 
