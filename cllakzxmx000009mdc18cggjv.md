@@ -5,6 +5,7 @@ seoDescription: "Embark on a journey through Quick Sort, the versatile sorting a
 datePublished: Mon Aug 14 2023 07:56:45 GMT+0000 (Coordinated Universal Time)
 cuid: cllakzxmx000009mdc18cggjv
 slug: quick-sort-unleashed-taming-complexity-with-python-and-a-leetcode-challenge
+cover: https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/dPgPoiUIiXk/upload/95b0d26681f1940992fd1b01164594e0.jpeg
 tags: python, quick-sort, time-complexity, sorting-algorithms, daily-leetcode-challenge
 
 ---
